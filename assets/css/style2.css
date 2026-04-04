@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(../fonts/sulox32-flower-basket-2839518_1920.jpg);
+}
+
+/* HEADER */
+
+.navbar-top{
+    
+    background-color: #2e7d32e1;
+    padding : 3px 3px;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px -10px;
+    background-image: url(../fonts/assets/img/mosq1.jpg.webp);
+    
+}
+ 
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style : none ;
+    
+    }
+  ul a{
+    font-size: 13px;
+    color: white;
+    font-weight: 300;
+    text-decoration: dotted;
+    text-indent: 20px;
+       }
+         .slides img {
+    width: 49%;
+    margin-left: 5px;
+    
+    height: 350px;
+    object-fit: cover;
+}
+       }
+       
+       /*IMAGES QUI D2FILENT 
+       .slides {
+        position: absolute;
+        width: 400%;
+        height: 100%;
+        display: flex;
+        animation: slide 16s infinite ;
+        animation-fill-mode: forwards;
+        
+       }
+       .slides img {
+    width: 10%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/*TEXT AU MILIEU */
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(46, 51, 52, 0.562);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*ANIMATION */
+@keyframes slide {
+    0%{
+        margin-left: 0;
+    }
+25%{
+    margin-left: -100%;
+}
+50%{
+    margin-left: -200%;
+}
+75%{
+    margin-left: -300%;
+}
+100%{
+    margin-left: 0%;
+}
+}
+ audio{
+    width: 207px;
+ }
+
+       /*slider
+    .slider{
+    width:100%;
+    height : 300px;
+    overflow: hiden;
+       
+       }
+
+.slides{
+    display: flex;
+    width: 400%;
+    animation: slide 45s infinite;
+    
+}
+.slides img {
+    width: 10%;
+    height: 350px;
+    object-fit: cover;
+}
+@keyframes slide {
+   
+   
+/*HERO*/
+   
+
+.boite{
+    background-image: url( );
+}
+/*CARDS*/
+.cards {
+    display: flex ;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.card{
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: ;
+}
+/*SERMON*/
+.sermon{
+    text-align: center;
+    padding: 30px;
+
+}
+.sermon-box{
+    border: 1px solid #ccc;
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+   
+}
+.btn {
+     border-radius: 10px;
+     padding: 40px;
+    
+     background-color: beige;
+}
+.versetsermonstyle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 12px; 
+}
+.icone{
+    text-align: center;
+}
+/*FOOTER*/
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
+footer a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}

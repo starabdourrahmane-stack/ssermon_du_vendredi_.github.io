@@ -1,0 +1,29 @@
+/*body*/
+body{
+    margin: 85px;
+    background-color: rgba(195, 154, 104, 0.518);
+    font-size: 18px;
+    color: rgb(64, 60, 55);
+    background-image: 
+    
+}
+/*border head*/
+.border{
+    border: solid 1px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url(../fonts/istockphoto-1311980207-1024x1024.jpg);
+}
+/*follow*/
+.icone{
+    text-align: center;
+}
+/*FOOTER*/
+footer{
+    background: #2e7d32;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+    
+}
