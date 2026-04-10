@@ -1,10 +1,12 @@
 /*body*/
 body{
-    margin: 85px;
-    background-color: rgba(195, 154, 104, 0.518);
-    font-size: 18px;
+    margin: 40px;
+   /* background-color: rgba(225, 184, 134, 0.518);*/
+   background-color: whitesmoke;
+    font-size: 20px;
     color: rgb(64, 60, 55);
-    background-image: 
+    background-image: background-image :url(../fonts/sulox32-flower-basket-2839518_1920.jpg)
+    
     
 }
 /*border head*/
@@ -25,5 +27,5 @@ footer{
     color: #f4f4f4;
     text-align: center;
     padding: 15px;
-    
+   
 }
