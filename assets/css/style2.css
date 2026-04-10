@@ -1,9 +1,10 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 
     margin: 0;
+    font-size: 18px;
     background-color: #f4f4f4;
-    background-image: url(../fonts/sulox32-flower-basket-2839518_1920.jpg);
-}
+    background-image :url(../fonts/sulox32-flower-basket-2839518_1920.jpg)
+    }
 
 /* HEADER */
 
@@ -13,7 +14,7 @@ body{
     padding : 3px 3px;
     justify-content: space-between;
     align-items: center;
-    margin: -10px -10px;
+        margin: -10px -10px;
     background-image: url(../fonts/assets/img/mosq1.jpg.webp);
     
 }
@@ -25,11 +26,12 @@ nav ul{
     
     }
   ul a{
-    font-size: 13px;
+    font-size: 20px;
     color: white;
-    font-weight: 300;
+    font-weight: 450;
     text-decoration: dotted;
     text-indent: 20px;
+    
        }
          .slides img {
     width: 49%;
@@ -38,24 +40,7 @@ nav ul{
     height: 350px;
     object-fit: cover;
 }
-       }
        
-       /*IMAGES QUI D2FILENT 
-       .slides {
-        position: absolute;
-        width: 400%;
-        height: 100%;
-        display: flex;
-        animation: slide 16s infinite ;
-        animation-fill-mode: forwards;
-        
-       }
-       .slides img {
-    width: 10%;
-    height: 350px;
-    object-fit: cover;
-}
-
 /*TEXT AU MILIEU */
 .hero{
     position: absolute;
@@ -146,12 +131,15 @@ nav ul{
     width: 400px;
     margin: auto;
     padding: 20px;
+    
    
 }
 .btn {
      border-radius: 10px;
      padding: 40px;
-    
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
      background-color: beige;
 }
 .versetsermonstyle {
